@@ -1,4 +1,5 @@
 //Write a program to reverse a number.
+
 #include<stdio.h>
 int main()
 {
@@ -9,9 +10,9 @@ int main()
 
     while (num > 0)
     {
-        r = num % 10; // Get the last digit
-        rev = rev * 10 + r; // Append it to the reversed number
-        num = num / 10; // Remove the last digit
+        r = num % 10; 
+        rev = rev * 10 + r; 
+        num = num / 10; 
     }
     
     printf("The reverse of the given number is %d", rev);

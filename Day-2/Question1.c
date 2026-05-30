@@ -9,9 +9,9 @@ int main()
 
     while (num > 0)
     {
-        r = num % 10; // Get the last digit
-        sum = sum + r;     // Add it to the sum
-        num = num / 10;      // Remove the last digit
+        r = num % 10; 
+        sum = sum + r;     
+        num = num / 10;     
     }
 
     printf("The sum of digits of the given number is %d", sum);

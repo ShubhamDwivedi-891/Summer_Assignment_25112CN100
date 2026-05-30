@@ -9,9 +9,9 @@ int main()
 
     while (num > 0)
     {
-        r = num % 10; // Get the last digit
-        product = product * r; // Multiply it to the product
-        num = num / 10;      // Remove the last digit
+        r = num % 10; 
+        product = product * r; 
+        num = num / 10;      
     }
     
     printf("The product of digits of the given number is %d", product);
